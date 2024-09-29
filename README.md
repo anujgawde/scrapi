@@ -20,6 +20,11 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Steps to use Scrapi
+
+1. Install the dependencies and run the project.
+2. Send a POST request to '/scraper/scrape-url' with your desired URL (Note: Send a base URL - without any subsections, to avoid scraping only specific sections of the website)
+3. Make changes according to your requirements in the scrapePage method (which is a part of scraper.service.ts) to extract and save the data in your database.
 
 ## Run tests
 
